@@ -1,7 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Stephen Drollinger
+ * 6 April 2014 
+ * NetBeans 7.4
+ * Homework week3 CheckingAccount Lianng 9th Ed. Problem 11.3
  */
 package Week3;
 

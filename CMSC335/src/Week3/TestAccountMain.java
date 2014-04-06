@@ -1,8 +1,8 @@
 /*
  * Stephen Drollinger
- * 23 Mar 2014 
+ * 6 April 2014 
  * NetBeans 7.4
- * Homework week1 Test account main Lianng 9th Ed. Problem 8.7
+ * Homework week3 TestAccount Lianng 9th Ed. Problem 11.3
  */
 package Week3;
 
