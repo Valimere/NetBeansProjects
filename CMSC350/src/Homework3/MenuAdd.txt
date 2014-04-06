@@ -1,0 +1,2 @@
+View
+Layout;Margins;Orientation;Size

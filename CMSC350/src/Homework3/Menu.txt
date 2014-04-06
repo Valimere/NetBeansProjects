@@ -1,0 +1,4 @@
+File;New;Open;Save;SaveAs;Close
+View;Color;Gray;Zoom;Ruler;Grid
+Process;Select;Move;Rotate;Scale;Delete;Group
+About;Release;Version;Contact;Description
