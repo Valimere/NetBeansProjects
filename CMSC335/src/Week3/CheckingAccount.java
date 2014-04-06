@@ -21,18 +21,20 @@ public class CheckingAccount extends Account {
     @Override
     public void withdraw() {
         // requesting amount to withdraw
+        System.out.println("----Checking Account----");
         Scanner scanIn = new Scanner(System.in);
-        System.out.print("Amount to withraw: ");
+        System.out.println("Overdraft Protection of :" + overdraftLimit);
+        System.out.print("Amount to withdraw: ");
         System.out.println();
         requestedAmount = scanIn.nextDouble();
-        
+
         //checking if there is sufficient funds + overdraft limit
         if (requestedAmount < overdraftLimit + this.getBalance()) {
             this.setBalance(this.getBalance() - requestedAmount);
             System.out.println("Your Remaining Balance is :" + this.getBalance());
 
         } else {
-            System.out.println("Insuffecient Funds");
+            System.out.println("Insufficient  Funds");
             System.out.println("Balance:                 " + this.getBalance());
             System.out.println("Overdraft Protection of :" + overdraftLimit);
         }
