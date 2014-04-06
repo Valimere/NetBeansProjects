@@ -1,0 +1,8 @@
+Black	#000000
+Navy	#000080
+Blue	#0000FF
+Green	#008000
+Olive	#808000
+Red	#FF0000
+Wheat	#F5DEB3
+Yellow	#FFFF00
